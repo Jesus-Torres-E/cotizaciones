@@ -1,17 +1,19 @@
- sudo /opt/lampp/lampp stop
- sudo /opt/lampp/lampp start
+sudo /opt/lampp/lampp stop
+sudo /opt/lampp/lampp start
 
- sudo chmod -R 777 //opt/lampp/htdocs/
+sudo chmod -R 777 //opt/lampp/htdocs/
 
 http://localhost/Cotizaciones/
+/opt/lampp/htdocs/Cotizaciones
 
 git
 
 git config --global user.name "Jesus Torres"
 git config --global user.email j.torres355d@gmail.com
 git config --list
+git config --global credential.helper 'cache --timeout=3600'
 
-$git init
+git init
 
 $git add <file> : añadir archivos que podrán pasar al “staging area”.
 $git add . : Mismo comando que el anterior pero el punto al final indica que se seleccionarán a todos los archivos.
