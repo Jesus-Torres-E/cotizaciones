@@ -23,5 +23,9 @@ $git commit -m “Mensaje”: Uso habitual del comando anterior pero añadiendo 
 $git log: Listado de confirmaciones
 git diff "archivo"
 
+git remote add origin https://github.com/Jesus-Torres-E/cotizaciones.git
+git push -u origin master
+
+
 git branch // muestra lista de ramas
 git branch "nombre de la rama"// crear rama
