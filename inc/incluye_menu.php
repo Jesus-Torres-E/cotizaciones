@@ -13,12 +13,12 @@
         <!-- Collection of nav links, forms, and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                
-                <li class="active"><a href="#">Cotizaciones</a></li>
+
+                <li class="active"><a href="cotizacion_inicia.php">Cotizaciones</a></li>
                 <!-- ELEMENTOS INDIVIDUALES DEL MENÚ
                 <li><a href="#">Cotizaciones</a></li>
                  -->
-                 <li class="dropdown">
+                <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Proveedores<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="proveedor_registrar.php">Agregar un Proveedor</a></li>
@@ -27,7 +27,7 @@
                         <li><a href="#">Gestionar Proveedores</a></li>
                     </ul>
                 </li>
-                 
+
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Refacciones<b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -36,7 +36,7 @@
                         <li><a href="#">Consulta rápida</a></li>
                     </ul>
                 </li>
-            
+
             </ul>
             <form class="navbar-form navbar-left">
                 <div class="input-group">

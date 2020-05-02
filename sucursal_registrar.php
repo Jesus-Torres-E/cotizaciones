@@ -8,29 +8,33 @@
         <!--código que incluye Bootstrap-->
         <?php 
         include'inc/incluye_bootstrap.php';
-        include 'inc/conexion.php';        
+        include 'inc/conexion.php'; 
+        include 'inc/incluye_datatable_head.php';
         ?>
         <!--termina código que incluye Bootstrap-->
 
     </head>
     <body>
         <!--código que incluye el menú responsivo-->
-        <?php include'inc/incluye_menu.php' ?>
+        <?php include'inc/incluye_menu.php'; ?>
+        
         <!--termina código que incluye el menú responsivo-->
         <div class="container">
             <div class="jumbotron">
-                <h1>Registrar Sucursal</h1>
+                
                 <form role="form" id="login-form" 
                       method="post" class="form-signin" 
                       action="proveedor_guardar.php">
-                    
+                    <div class="h1">
+                    <h1>Registrar Sucursal</h1>
+                    </div>
                     <div class="h2">
                         DATOS DE LA SUCURSAL
                     </div>
                     <div class="form-group">
 
                     <label>Seleccione proveedor</label>
-                    <?php include'lista_proveedor.php' ?>
+                    <?php include'lista_proveedor.php'; ?>
                     </div>
 
                     <div class="form-group">
@@ -62,6 +66,7 @@
                 </form>
             </div>
         </div>
+        <?php include'inc/incluye_datatable_pie.php' ?>
 
     </body>
 </html>
